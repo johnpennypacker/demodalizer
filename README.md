@@ -2,5 +2,5 @@
 
 Put the contents of this file into the URL of a bookmark: [Demodalizer](https://raw.githubusercontent.com/johnpennypacker/demodalizer/master/output/bookmarklet-demodalizer.min.js)
 
-When faced with a modal, activate the bookmarklet.
+When faced with a modal, hit the bookmark and the modals vanish.
 
