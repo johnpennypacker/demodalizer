@@ -1,4 +1,4 @@
-# demodalizer
+# Demodalizer
 Fixing the internet one modal at a time.
 
 ## How does it work?
