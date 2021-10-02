@@ -8,7 +8,7 @@ When presented with a modal, hit the bookmark and make the modals go away.
 
 ## What is a modal window?
 
-A modal, or modal window, is an element of a webpage that seeks your attention by disrupting your browsing activity.  Typically, it's a prompt that asks you for something, and usually it requires that you dismiss it before proceeding to the page's content.  It's like a popup window that's harder to close.
+A modal, or modal window, is an element of a webpage that seeks your attention by disrupting your browsing activity. Typically, it's a prompt that asks you for something, and usually it requires that you dismiss it before proceeding... like a popup window that's harder to close.
 
 ## What does Demodalizer do?
 
