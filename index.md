@@ -10,17 +10,17 @@ When presented with a modal, hit the bookmark and make the modals go away.
 
 A modal, or modal window, is an element of a webpage that seeks your attention by disrupting your browsing activity.  Typically, it's a prompt that asks you for something, and usually it requires that you dismiss it before proceeding to the page's content.  It's like a popup window that's harder to close.
 
-## What does it do?
+## What does Demodalizer do?
 
 It looks for HTML that matches particular patterns that tend to be unique to modal windows, and it hides them.  It also re-enables scrolling on pages that restrict that.
 
-## Why did you make this?
+## Why did you make Demodalizer?
 
 Because modals suck. Think of this as a modern twist on your conventional popup blocker.
 
-## Who is this for?
+## Who is Demodalizer for?
 
-Anyone who hates popups.
+Anyone who hates popups — more specifically, anyone who hates modals.
 
 ## Can I help?
 
