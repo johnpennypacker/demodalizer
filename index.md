@@ -1,37 +1,21 @@
-## Welcome to GitHub Pages
+# How do I use Demodalizer?
 
-You can use the [editor on GitHub](https://github.com/johnpennypacker/demodalizer/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Put the contents of this file into the URL of a bookmark: [Demodalizer](https://raw.githubusercontent.com/johnpennypacker/demodalizer/master/output/bookmarklet-demodalizer.min.js)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+When presented with a modal, hit the bookmark and make the modals go away.
 
-### Markdown
+## What does it do?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+It looks for HTML that matches particular patterns that tend to be unique to modal windows, and it hides them.  It also re-enables scrolling on pages that restrict that.
 
-```markdown
-Syntax highlighted code block
+## Why did you make this?
 
-# Header 1
-## Header 2
-### Header 3
+Because modals suck. They're just like popup windows that are harder to close.  Think of this as a modern twist on your conventional popup blocker.
 
-- Bulleted
-- List
+## Who is this for?
 
-1. Numbered
-2. List
+Anyone who hates popups.
 
-**Bold** and _Italic_ and `Code` text
+## Can I help?
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/johnpennypacker/demodalizer/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Feedback, contributions, feature requests, and complaints are welcome.  [File an issue](https://github.com/johnpennypacker/demodalizer/issues) or [make a pull request](https://github.com/johnpennypacker/demodalizer/pulls).
