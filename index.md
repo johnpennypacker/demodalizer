@@ -2,7 +2,7 @@
 
 ## How do I use Demodalizer?
 
-Put the contents of this file into the URL of a bookmark: [Demodalizer](https://raw.githubusercontent.com/johnpennypacker/demodalizer/master/output/bookmarklet-demodalizer.min.js).
+<div id="installation"><p>Drag this bookmarklet to your favorites bar: <a href='javascript:var modalSelectors=["._5hn6","div#onetrust-consent-sdk","div[class*='intromercial' i]","div[class*='modal' i]","div[data-test-id*='Modal' i]","div[class*='flyout' i]","div[class*='paywall' i]","div[class*='_pendo' i]","div[class*='popup' i]","div[class*='pop-up' i]","div[class*='pop_up' i]","div[class*='popmake' i]","div[role*='dialog' i]","div.tp-active","div.js-consent-banner","div.cookie-consent","iframe[title*=modal] i","#fortress-paywall-container-root","#paywall"],commonAdSelectors=[".advertisement",".adtop"],s=[].concat(modalSelectors,commonAdSelectors);document.querySelectorAll(s.join(",")).forEach(o=>{o.style.setProperty("display","none","important")}),document.querySelectorAll("html,body").forEach(o=>{o.style.setProperty("overflow","auto","important")}),document.onblur=function(){return!1};'>Demodalizer</a>.</p></div>
 
 When presented with a modal, hit the bookmark and make the modals go away.
 
