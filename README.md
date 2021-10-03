@@ -1,6 +1,6 @@
 # Demodalizer
 
-Demodalizer is a bit of javascript that removes modal windows.  [Read about Demodalizer](https://johnpennypacker.github.io/demodalizer/)
+Demodalizer is a bit of javascript that removes modal windows.  [Read about Demodalizer](https://johnpennypacker.github.io/demodalizer/).
 
 # The code
 
