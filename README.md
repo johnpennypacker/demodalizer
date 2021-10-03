@@ -4,6 +4,6 @@ Demodalizer is a bit of javascript that removes modal windows.  [Read about Demo
 
 # The code
 
-Copy the contents of this file into the URL of a bookmark: [Demodalizer](https://raw.githubusercontent.com/johnpennypacker/demodalizer/master/output/bookmarklet-demodalizer.min.js), then hit the bookmark and make the modals go away.
+To try it, copy the [demodalizer bookmarklet javascript](https://raw.githubusercontent.com/johnpennypacker/demodalizer/master/output/bookmarklet-demodalizer.min.js) into the URL of a bookmark, when you encounter a modal, hit the bookmark to make it go away.
 
 
