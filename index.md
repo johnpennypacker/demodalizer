@@ -8,11 +8,11 @@ When presented with a modal, hit the bookmark and make the modals go away.
 
 ## Modal windows
 
-Modals, or modal windows, are elements of a webpage that seek your attention by disrupting your browsing activity. Typically, a modal will be a prompt that asks you for something, and usually it requires that you dismiss it before proceeding... like a popup window that's harder to close.
+Modals, or modal windows, are elements of a webpage that seek your attention by disrupting your browsing activity. Typically, a modal will be a prompt that asks you for something, and usually it requires that you dismiss it before proceeding. They're like popup windows that are harder to close.
 
 ## How it works
 
-Demodalizer looks for HTML that matches particular patterns that tend to be unique to modal windows, and it hides them. It doesn't accept or reject any term or policy, it doesn't submit any forms. It just removes the modal windows from your view. It also re-enables scrolling on pages that restrict that and it tries to proactively suppress modals that appear when you're about to leave a page.
+Demodalizer looks for HTML that matches particular patterns that tend to be unique to modal windows and it hides anything that matches. It doesn't accept or reject any terms or policies. It doesn't submit any forms. It just removes the modal windows from your view. It also re-enables scrolling on pages that restrict that and it tries to proactively suppress modals that will appear when you're about to leave a page.
 
 ## Potential side effects
 
