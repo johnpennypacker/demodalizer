@@ -20,5 +20,5 @@ It's possible that demodalizer will hide something you want, refreshing the page
 
 ## Can I help?
 
-Feedback, contributions, feature requests, and complaints are welcome.  [File an issue](https://github.com/johnpennypacker/demodalizer/issues) or [make a pull request](https://github.com/johnpennypacker/demodalizer/pulls).
+Feedback, contributions, feature requests, and complaints are welcome. [Browse the repo](https://github.com/johnpennypacker/demodalizer), [file an issue](https://github.com/johnpennypacker/demodalizer/issues), or [make a pull request](https://github.com/johnpennypacker/demodalizer/pulls).
 
