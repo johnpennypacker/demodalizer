@@ -1,6 +1,9 @@
-# How do I use Demodalizer?
+# Demodalizer
 
-Put the contents of this file into the URL of a bookmark: [Demodalizer](https://raw.githubusercontent.com/johnpennypacker/demodalizer/master/output/bookmarklet-demodalizer.min.js)
+Demodalizer is a bit of javascript that removes modal windows.  [Read about Demodalizer](https://johnpennypacker.github.io/demodalizer/)
 
-When presented with a modal, hit the bookmark and make the modals go away.
+# The code
+
+Copy the contents of this file into the URL of a bookmark: [Demodalizer](https://raw.githubusercontent.com/johnpennypacker/demodalizer/master/output/bookmarklet-demodalizer.min.js), then hit the bookmark and make the modals go away.
+
 
