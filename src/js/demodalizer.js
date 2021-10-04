@@ -10,6 +10,7 @@ var modalSelectors = [
 	"div[class*='paywall' i]",
 	"div[class*='_pendo' i]",
 	"div[class*='popup' i]",
+	"div[id*='popup' i]",
 	"div[class*='pop-up' i]",
 	"div[class*='pop_up' i]",
 	"div[class*='popmake' i]",
