@@ -4,7 +4,7 @@ const pkg = require('./package.json');
 const babel  = require('gulp-babel');
 const header = require('gulp-header');
 const rename = require('gulp-rename');
-const uglify = require('gulp-uglify');
+const terser = require('gulp-terser');
 
 const { watch, series } = require('gulp');
 
@@ -31,7 +31,11 @@ function javascript(cb) {
 
   src('src/js/*.js')
     .pipe(babel())
-    .pipe(uglify())
+    .pipe(terser({
+      compress: true,
+      keep_fnames: false,
+      mangle: true
+    }))
     .pipe(rename({ extname: '.min.js' }))
 //    .pipe(header(banner(), { pkg : pkg }))
     .pipe(dest('output/'))

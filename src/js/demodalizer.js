@@ -11,6 +11,7 @@ var modalSelectors = [
 	"div[class*='_pendo' i]",
 	"div[class*='popup' i]",
 	"div[id*='popup' i]",
+	"div[id*='bottom-banner' i][class*='dcr']", // guardian pay wall overlay
 	"div[class*='pop-up' i]",
 	"div[class*='pop_up' i]",
 	"div[class*='popmake' i]",
@@ -37,7 +38,7 @@ document.querySelectorAll( s.join(",") ).forEach((el) => {
 });
 
 // restore overflow settings to html and body
-document.querySelectorAll( "html,body" ).forEach((el) => {
+document.querySelectorAll( "html, body" ).forEach((el) => {
 	el.style.setProperty( "overflow", "auto", "important" );
 });
 
