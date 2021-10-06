@@ -41,29 +41,30 @@ class Demodalizer {
 
 const modalSelectors = [
 	"._5hn6",
+	"div[id*='bottom-banner' i][class*='dcr']", // guardian pay wall overlay
 	"div#onetrust-consent-sdk",
 	"div[class*='alert-' i]",
+	"div[class*='consent' i]",
+	"div.cookie-consent",
+	"div[role*='dialog' i]",
+	"div[class*='flyout' i]",
 	"div[class*='intromercial' i]",
-	"div[class*='modal' i]",
+	"div.js-consent-banner",
 // 	"div.modal",
 // 	".modal-backdrop",
+	"div[class*='modal' i]",
+	"iframe[title*=modal] i",
 	"div[data-test-id*='Modal' i]",
-	"div[class*='flyout' i]",
 	"div[class*='paywall' i]",
+	"div[id*='paywall' i]",
 	"div[class*='_pendo' i]",
 	"div[class*='popup' i]",
 	"div[id*='popup' i]",
-	"div[id*='bottom-banner' i][class*='dcr']", // guardian pay wall overlay
 	"div[class*='pop-' i]",
 	"div[class*='pop_' i]",
 	"div[class*='popmake' i]",
-	"div[role*='dialog' i]",
-	"div.tp-active",
-	"div.js-consent-banner",
-	"div.cookie-consent",
-	"iframe[title*=modal] i",
-	"#fortress-paywall-container-root",
 	"#paywall"
+	"div.tp-active",
 ];
 
 const commonAdSelectors = [
