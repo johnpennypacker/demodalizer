@@ -8,17 +8,17 @@ When presented with a modal, hit the bookmark and make the modals go away.  _Tip
 
 ## Modal windows
 
-Modals, or modal windows, are elements of a webpage that seek your attention by disrupting your browsing activity. Typically, a modal will be a prompt that asks you for something, and usually it requires that you dismiss it before proceeding. They're like popup windows that are harder to close.
+Modals, also known as modal windows or page take-overs, are elements of a webpage that seek your attention by disrupting your browsing activity. Typically, a modal will be a prompt that asks you for something, and usually it requires that you dismiss it before proceeding. They're like popup windows that are harder to close.
 
 ## How it works
 
-Demodalizer looks for HTML that matches particular patterns that tend to be unique to modal windows and it hides anything that matches. It doesn't accept or reject any terms or policies. It doesn't submit any forms. It just removes the modal windows from your view. It also re-enables scrolling on pages that restrict that and it tries to proactively suppress modals that will appear when you're about to leave a page.
+Demodalizer looks for HTML that matches particular patterns that tend to be unique to modal windows and it hides anything that matches. It doesn't accept or reject any terms or policies. It doesn't submit any forms. It just removes the modal windows from your view. It also re-enables scrolling on pages that restrict that and it tries to proactively suppress modals that will appear when you're about to leave a page. It may also hide some advertisements and interfere with tracking software that records when your cursor leaves the window.
 
 ## Potential side effects
 
-It's possible that demodalizer will hide something you want, refreshing the page will undo everything demodalizer did. It also hides some advertisements and may interfere with tracking software that records when your cursor leaves the window.
+It's possible that demodalizer will hide something it shouldn't. Refresh the page to undo everything demodalizer did. 
 
-## Can I help?
+## You can help
 
-Feedback, contributions, feature requests, and complaints are welcome. [Browse the repo](https://github.com/johnpennypacker/demodalizer), [file an issue](https://github.com/johnpennypacker/demodalizer/issues), or [make a pull request](https://github.com/johnpennypacker/demodalizer/pulls).
+Feedback, contributions, feature requests, and complaints are welcome. [Browse the code](https://github.com/johnpennypacker/demodalizer), [file an issue](https://github.com/johnpennypacker/demodalizer/issues), or [make a pull request](https://github.com/johnpennypacker/demodalizer/pulls).
 
