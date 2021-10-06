@@ -12,7 +12,7 @@ Modals, also known as modal windows or page take-overs, are elements of a webpag
 
 ## How it works
 
-Demodalizer looks for HTML that matches particular patterns that tend to be unique to modal windows and it hides anything that matches. It doesn't accept or reject any terms or policies. It doesn't submit any forms. It just removes the modal windows from your view. It also re-enables scrolling on pages that restrict that and it tries to proactively suppress modals that will appear when you're about to leave a page. It may also hide some advertisements and interfere with tracking software that records when your cursor leaves the window.
+Demodalizer looks for elements that match common modal windows and then hides them. It doesn't accept or reject any terms or policies. It doesn't submit any forms. It just removes the modal windows from your view. It also re-enables scrolling on pages that restrict that and it tries to suppress modals that will appear when you're about to leave a page. It may also hide some advertisements and interfere with tracking software that records when your cursor leaves the window.
 
 ## Potential side effects
 
