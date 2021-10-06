@@ -8,10 +8,6 @@ const terser = require('gulp-terser');
 
 const { watch, series } = require('gulp');
 
-function clean(cb) {
-  // body omitted
-  cb();
-}
 
 function banner() {
   var banner = [
@@ -42,8 +38,8 @@ function javascript(cb) {
     .pipe(rename({ prefix: 'bookmarklet-' }))
     .pipe(header('javascript:'))
     .pipe(dest('output/'));
-
-  cb();
+    
+//  cb();
 }
 
 function css(cb) {
@@ -54,6 +50,7 @@ function css(cb) {
 exports.default = function() {
   // You can use a single task
   //watch('src/*.css', css);
+  watch('src/js/*.js', javascript );
   // Or a composed task
-  watch('src/js/*.js', series(clean, javascript));
+  //watch('src/js/*.js', series(css, javascript));
 };

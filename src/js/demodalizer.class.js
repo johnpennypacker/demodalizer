@@ -48,6 +48,7 @@ const modalSelectors = [
 	"div.cookie-consent",
 	"div[role*='dialog' i]",
 	"div[class*='flyout' i]",
+	".fullscreen-overlay",
 	"div[class*='intromercial' i]",
 	"div.js-consent-banner",
 // 	"div.modal",
@@ -63,8 +64,8 @@ const modalSelectors = [
 	"div[class*='pop-' i]",
 	"div[class*='pop_' i]",
 	"div[class*='popmake' i]",
-	"#paywall"
-	"div.tp-active",
+	"#paywall",
+	"div.tp-active"
 ];
 
 const commonAdSelectors = [
