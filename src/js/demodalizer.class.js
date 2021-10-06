@@ -42,19 +42,20 @@ class Demodalizer {
 const modalSelectors = [
 	"._5hn6",
 	"div#onetrust-consent-sdk",
+	"div[class*='alert-' i]",
 	"div[class*='intromercial' i]",
 	"div[class*='modal' i]",
 // 	"div.modal",
 // 	".modal-backdrop",
 	"div[data-test-id*='Modal' i]",
 	"div[class*='flyout' i]",
-	"div[id*='bottom-banner' i][class*='dcr']", // guardian pay wall overlay
 	"div[class*='paywall' i]",
 	"div[class*='_pendo' i]",
 	"div[class*='popup' i]",
 	"div[id*='popup' i]",
-	"div[class*='pop-up' i]",
-	"div[class*='pop_up' i]",
+	"div[id*='bottom-banner' i][class*='dcr']", // guardian pay wall overlay
+	"div[class*='pop-' i]",
+	"div[class*='pop_' i]",
 	"div[class*='popmake' i]",
 	"div[role*='dialog' i]",
 	"div.tp-active",

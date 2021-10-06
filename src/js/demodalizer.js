@@ -1,6 +1,7 @@
 var modalSelectors = [
 	"._5hn6",
 	"div#onetrust-consent-sdk",
+	"div[class*='alert-' i]",
 	"div[class*='intromercial' i]",
 	"div[class*='modal' i]",
 // 	"div.modal",
@@ -12,8 +13,8 @@ var modalSelectors = [
 	"div[class*='popup' i]",
 	"div[id*='popup' i]",
 	"div[id*='bottom-banner' i][class*='dcr']", // guardian pay wall overlay
-	"div[class*='pop-up' i]",
-	"div[class*='pop_up' i]",
+	"div[class*='pop-' i]",
+	"div[class*='pop_' i]",
 	"div[class*='popmake' i]",
 	"div[role*='dialog' i]",
 	"div.tp-active",
