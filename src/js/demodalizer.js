@@ -29,7 +29,8 @@ var modalSelectors = [
 	"div[class*='pop_' i]",
 	"div[class*='popmake' i]",
 	"#paywall",
-	"div.tp-active"
+	"div.tp-active",
+	"ytd-popup-container"
 ];
 
 var commonAdSelectors = [
