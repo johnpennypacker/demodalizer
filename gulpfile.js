@@ -1,13 +1,10 @@
-const { src, dest } = require('gulp');
+const { src, dest, watch, series } = require('gulp');
 const pkg = require('./package.json');
 
 const babel  = require('gulp-babel');
 const header = require('gulp-header');
 const rename = require('gulp-rename');
 const terser = require('gulp-terser');
-
-const { watch, series } = require('gulp');
-
 
 function banner() {
   var banner = [
@@ -38,13 +35,8 @@ function javascript(cb) {
     .pipe(rename({ prefix: 'bookmarklet-' }))
     .pipe(header('javascript:'))
     .pipe(dest('output/'));
-    
-  cb();
-}
 
-function css(cb) {
-  // body omitted
-  cb();
+	cb();
 }
 
 exports.default = function() {
@@ -54,3 +46,5 @@ exports.default = function() {
   // Or a composed task
   //watch('src/js/*.js', series(css, javascript));
 };
+
+exports.javascript = javascript;
