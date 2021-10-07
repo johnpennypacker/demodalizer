@@ -39,7 +39,7 @@ function javascript(cb) {
     .pipe(header('javascript:'))
     .pipe(dest('output/'));
     
-//  cb();
+  cb();
 }
 
 function css(cb) {

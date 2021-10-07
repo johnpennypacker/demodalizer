@@ -7,6 +7,7 @@ var modalSelectors = [
 	"div.cookie-consent",
 	"div[role*='dialog' i]",
 	"div[class*='flyout' i]",
+	"div[class*='gdpr-' i]",
 	".fullscreen-overlay",
 	"div[class*='intromercial' i]",
 	"div.js-consent-banner",
@@ -15,6 +16,8 @@ var modalSelectors = [
 	"div[class*='modal' i]",
 	"iframe[title*=modal] i",
 	"div[data-test-id*='Modal' i]",
+	"div[id*='overlay_' i]",
+	"div[class*='overlay-' i]",
 	"div[class*='paywall' i]",
 	"div[id*='paywall' i]",
 	"div[class*='_pendo' i]",
@@ -30,6 +33,7 @@ var modalSelectors = [
 var commonAdSelectors = [
 	".advertisement",
 	".adtop"
+	"div[class$='_ad' i]",
 ];
 
 // concatenate the selector arrays
