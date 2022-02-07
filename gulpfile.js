@@ -20,9 +20,11 @@ function banner() {
 	return banner;
 }
 
-function javascript(cb) {
+function javascript() {
 
-  src('src/js/*.js')
+//	console.log('in the js');
+	
+  return src('src/js/*.js')
     .pipe(babel())
     .pipe(terser({
       compress: true,
@@ -36,7 +38,6 @@ function javascript(cb) {
     .pipe(header('javascript:'))
     .pipe(dest('output/'));
 
-	cb();
 }
 
 exports.default = function() {
