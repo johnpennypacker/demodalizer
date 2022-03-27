@@ -29,6 +29,7 @@ var modalSelectors = [
 	"div[class*='modal' i]",
 	"iframe[title*=modal] i",
 	"div[data-test-id*='Modal' i]",
+	"#omnisend-dynamic-container"
 	"div[id*='overlay_' i]",
 	"div[class*='overlay-' i]", // fails here: https://www.architecturaldigest.com/story/vancouver-real-estate-native-reserve-land
 // 	"div[class*='paywall' i]",
