@@ -1,5 +1,6 @@
 var modalSelectors = [
 	"._5hn6",
+	".adsbygoogle",
 	".bx-base",
 	".ch2>div[class^='ch2']",
 	"#attentive_creative",
@@ -28,6 +29,7 @@ var modalSelectors = [
 	"div.mfp-bg",
 	"div[class*='modal' i]",
 	"iframe[title*=modal] i",
+	"iframe[src*=google.com] i",
 	"div[data-test-id*='Modal' i]",
 	"#omnisend-dynamic-container"
 	"div[id*='overlay_' i]",
